@@ -1,0 +1,92 @@
+[
+  {
+    "name": "Bananas",
+    "category": "Produce",
+    "price": 1.29,
+    "quantity": 6,
+    "unit": "each",
+    "organic": true,
+    "id": "1757960030339"
+  },
+  {
+    "name": "Milk",
+    "category": "Dairy",
+    "price": 3.49,
+    "quantity": 1,
+    "unit": "gallon",
+    "organic": false,
+    "id": "1757960030340"
+  },
+  {
+    "name": "Bread",
+    "category": "Bakery",
+    "price": 2.99,
+    "quantity": 1,
+    "unit": "loaf",
+    "organic": false,
+    "id": "1757960030341"
+  },
+  {
+    "name": "Ground Beef",
+    "category": "Meat",
+    "price": 6.99,
+    "quantity": 1,
+    "unit": "pound",
+    "organic": false,
+    "id": "1757960030342"
+  },
+  {
+    "name": "Spinach",
+    "category": "Produce",
+    "price": 3.99,
+    "quantity": 1,
+    "unit": "bag",
+    "organic": true,
+    "id": "1757960030343"
+  },
+  {
+    "name": "Cheddar Cheese",
+    "category": "Dairy",
+    "price": 4.29,
+    "quantity": 8,
+    "unit": "ounces",
+    "organic": false,
+    "id": "1757960030344"
+  },
+  {
+    "name": "Chicken Breast",
+    "category": "Meat",
+    "price": 8.99,
+    "quantity": 2,
+    "unit": "pounds",
+    "organic": false,
+    "id": "1757960030345"
+  },
+  {
+    "name": "Apples",
+    "category": "Produce",
+    "price": 4.99,
+    "quantity": 3,
+    "unit": "pounds",
+    "organic": true,
+    "id": "1757960030346"
+  },
+  {
+    "name": "Rice",
+    "category": "Pantry",
+    "price": 2.49,
+    "quantity": 1,
+    "unit": "bag",
+    "organic": false,
+    "id": "1757960030347"
+  },
+  {
+    "name": "Yogurt",
+    "category": "Dairy",
+    "price": 5.99,
+    "quantity": 6,
+    "unit": "pack",
+    "organic": true,
+    "id": "1757960030348"
+  }
+]

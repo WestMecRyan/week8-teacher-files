@@ -1,0 +1,86 @@
+[
+  {
+    "firstName": "John",
+    "lastName": "Smith",
+    "phone": "555-123-4567",
+    "email": "john.smith@email.com",
+    "id": "1757958913779"
+  },
+  {
+    "firstName": "Priya",
+    "lastName": "Jain",
+    "phone": "602-987-6543",
+    "email": "priya.jain@gmail.com",
+    "id": "1757958913779"
+  },
+  {
+    "firstName": "Michael",
+    "lastName": "Brown",
+    "phone": "623-456-7890",
+    "email": "michael.brown@outlook.com",
+    "id": "1757958913779"
+  },
+  {
+    "firstName": "Fatima",
+    "lastName": "Al-Hassan",
+    "phone": "555-234-5678",
+    "email": "fatima.hassan@yahoo.com",
+    "id": "1757958913779"
+  },
+  {
+    "firstName": "David",
+    "lastName": "Wilson",
+    "phone": "602-345-6789",
+    "email": "david.wilson@hotmail.com",
+    "id": "1757958913779"
+  },
+  {
+    "firstName": "Maria",
+    "lastName": "Rodriguez",
+    "phone": "623-567-8901",
+    "email": "maria.rodriguez@company.com",
+    "id": "1757958913779"
+  },
+  {
+    "firstName": "Christopher",
+    "lastName": "Taylor",
+    "phone": "555-678-9012",
+    "email": "chris.taylor@school.edu",
+    "id": "1757958913779"
+  },
+  {
+    "firstName": "Kenji",
+    "lastName": "Tanaka",
+    "phone": "555-789-0123",
+    "email": "kenji.tanaka@domain.org",
+    "id": "1757958913779"
+  },
+  {
+    "firstName": "Robert",
+    "lastName": "Thomas",
+    "phone": "555-890-1234",
+    "email": "robert.thomas@business.net",
+    "id": "1757958913779"
+  },
+  {
+    "firstName": "Aisha",
+    "lastName": "Okonkwo",
+    "phone": "555-901-2345",
+    "email": "aisha.okonkwo@service.com",
+    "id": "1757958913779"
+  },
+  {
+    "firstName": "James",
+    "lastName": "White",
+    "phone": "555-012-3456",
+    "email": "james.white@personal.com",
+    "id": "1757958913779"
+  },
+  {
+    "firstName": "Chen",
+    "lastName": "Wei",
+    "phone": "555-321-6547",
+    "email": "chen.wei@website.com",
+    "id": "1757958913779"
+  }
+]
