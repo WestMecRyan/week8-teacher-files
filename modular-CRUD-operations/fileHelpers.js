@@ -24,19 +24,10 @@ function deleteFile(filePath) {
     fs.unlinkSync(filePath);
   }
 }
-function addId(data) {
-  const copy = data.map((item) => ({ ...item })); // teach how this comes from returning object literal
-  copy.forEach((item, index) => {
-    if (!item.id) {
-      item["id"] = (Date.now() + index).toString();
-    }
-  });
-  return copy;
-}
 
 function sleep(ms) {
   const start = Date.now();
   while (Date.now() - start < ms) {}
 }
 
-module.exports = { writeFile, readFile, deleteFile, addId, sleep };
+module.exports = { writeFile, readFile, deleteFile, sleep };
