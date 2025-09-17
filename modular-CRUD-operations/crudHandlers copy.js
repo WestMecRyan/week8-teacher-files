@@ -49,24 +49,28 @@ function deleteAll(filePath, constraintFn) {
 function putItem(filePath, constraintFn, newItemData) {
   const data = readFile(filePath);
   const itemIndex = data.findIndex(constraintFn);
-  if (itemIndex === -1) {
-    return "Item not found";
+  if (itemIndex !== -1) {
+    const originalId = data[itemIndex].id;
+    data[itemIndex] = { ...newItemData, id: originalId };
+    writeFile(filePath, data);
+    return data[itemIndex];
   }
-  const originalId = data[itemIndex].id;
-  data[itemIndex] = { ...newItemData, id: originalId };
-  writeFile(filePath, data);
-  return `item updated: ${data[itemIndex]}`;
+  return null;
 }
 
+// PATCH - Update only specified fields
 function patchItem(filePath, constraintFn, updates) {
+
   const data = readFile(filePath);
   const itemIndex = data.findIndex(constraintFn);
-  if (itemIndex === -1) {
-    return "item not found";
+
+  if (itemIndex !== -1) {
+    // Merge updates with existing item
+    data[itemIndex] = { ...data[itemIndex], ...updates };
+    writeFile(filePath, data);
+    return data[itemIndex];
   }
-  data[itemIndex] = { ...data[itemIndex], ...updates };
-  writeFile(filePath, data);
-  return `Item patched ${data[itemIndex]}`;
+  return null;
 }
 
 module.exports = {
@@ -75,5 +79,5 @@ module.exports = {
   deleteAll,
   addId,
   putItem,
-  patchItem
+  patchItem,
 };

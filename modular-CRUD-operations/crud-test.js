@@ -14,6 +14,13 @@ const {
   putItem,
   patchItem,
 } = require("./crudHandlers.js");
+const { findHighestPriced } = require("./reduceHelpers.js");
+// console.log(findHighestPriced(groceriesDBpath));
+console.log(
+  groceriesJS.reduce((accItem, currentItem) => {
+    return currentItem.price < accItem.price ? currentItem : accItem;
+  })
+);
 // console.log(users);
 // console.log("stringify", JSON.stringify(users, null, 2));
 // deleteFile(filePath);
@@ -29,25 +36,27 @@ function deleteDairyProducts() {
   deleteAll(groceriesDBpath, (item) => item.category === "Dairy");
 }
 // deleteDairyProducts();
-function updateGroceryItem() {
+function replaceBananasWithOranges() {
   let newData = {
-    name: "Bananas",
+    name: "Oranges",
     category: "Produce",
-    price: 1.59,
-    quantity: 8,
+    price: 2.59,
+    quantity: 5,
     unit: "each",
     organic: true,
   };
   putItem(groceriesDBpath, (item) => item.name === "Bananas", newData);
 }
+// replaceBananasWithOranges();
+
 function patchGroceryItem(name) {
   let updates = {
-    quantity: 5,
+    quantity: 9,
     price: 4.49,
   };
   patchItem(groceriesDBpath, (item) => item.name === name, updates);
 }
-patchGroceryItem("Milk"); // careful with casing
+// patchGroceryItem("Milk"); // careful with casing
 // updateGroceryItem();
 
 // console.log(getItem(groceriesDBpath, "firstExpensive"));

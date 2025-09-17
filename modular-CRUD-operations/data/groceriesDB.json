@@ -6,16 +6,16 @@
     "quantity": 6,
     "unit": "each",
     "organic": true,
-    "id": "1758048682702"
+    "id": "1758134055546"
   },
   {
     "name": "Milk",
     "category": "Dairy",
-    "price": 4.49,
-    "quantity": 5,
+    "price": 3.49,
+    "quantity": 1,
     "unit": "gallon",
     "organic": false,
-    "id": "1758048682703"
+    "id": "1758134055547"
   },
   {
     "name": "Bread",
@@ -24,7 +24,7 @@
     "quantity": 1,
     "unit": "loaf",
     "organic": false,
-    "id": "1758048682704"
+    "id": "1758134055548"
   },
   {
     "name": "Ground Beef",
@@ -33,7 +33,7 @@
     "quantity": 1,
     "unit": "pound",
     "organic": false,
-    "id": "1758048682705"
+    "id": "1758134055549"
   },
   {
     "name": "Spinach",
@@ -42,7 +42,7 @@
     "quantity": 1,
     "unit": "bag",
     "organic": true,
-    "id": "1758048682706"
+    "id": "1758134055550"
   },
   {
     "name": "Cheddar Cheese",
@@ -51,7 +51,7 @@
     "quantity": 8,
     "unit": "ounces",
     "organic": false,
-    "id": "1758048682707"
+    "id": "1758134055551"
   },
   {
     "name": "Chicken Breast",
@@ -60,7 +60,7 @@
     "quantity": 2,
     "unit": "pounds",
     "organic": false,
-    "id": "1758048682708"
+    "id": "1758134055552"
   },
   {
     "name": "Apples",
@@ -69,7 +69,7 @@
     "quantity": 3,
     "unit": "pounds",
     "organic": true,
-    "id": "1758048682709"
+    "id": "1758134055553"
   },
   {
     "name": "Rice",
@@ -78,7 +78,7 @@
     "quantity": 1,
     "unit": "bag",
     "organic": false,
-    "id": "1758048682710"
+    "id": "1758134055554"
   },
   {
     "name": "Yogurt",
@@ -87,6 +87,6 @@
     "quantity": 6,
     "unit": "pack",
     "organic": true,
-    "id": "1758048682711"
+    "id": "1758134055555"
   }
 ]

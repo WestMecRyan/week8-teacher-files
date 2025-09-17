@@ -78,5 +78,3 @@ patchItem((item) => item.name === "Bananas", {
 - **R**ead: `findItem()` or `readFile()`
 - **U**pdate: `putItem()` (replace) or `patchItem()` (modify)
 - **D**elete: `deleteItem()`
-
-This gives your students a complete understanding of how REST API operations translate to data manipulation!
