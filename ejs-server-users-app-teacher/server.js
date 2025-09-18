@@ -3,7 +3,7 @@ const fs = require('fs');
 const path = require('path');
 const app = express();
 app.use(express.json());
-app.use(express.urlencoded());
+app.use(express.urlencoded({ extended: true }));
 app.use(express.static('public'));
 app.set('view engine', 'ejs');
 const userDBfilePath = path.join(__dirname, 'data', 'usersDB.json');
