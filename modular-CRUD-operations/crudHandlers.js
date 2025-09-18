@@ -75,5 +75,5 @@ module.exports = {
   deleteAll,
   addId,
   putItem,
-  patchItem
+  patchItem,
 };
